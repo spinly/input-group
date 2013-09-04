@@ -1,0 +1,16 @@
+{
+  "name": "input-group",
+  "repo": "spinly/input-group",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "spinly/mixins": "*",
+    "spinly/vars": "*",
+    "spinly/forms": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "index.styl"
+  ]
+}

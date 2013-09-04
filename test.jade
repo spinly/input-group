@@ -1,0 +1,28 @@
+html
+  head
+    title input-group
+    script(src='build/build.js')
+    link(rel='stylesheet', href='build/build.css')
+
+    :stylus
+      body
+        padding: 50px
+
+  h1 input-group
+
+  .input-group
+    span.input-group-addon @
+    input(type="text", placeholder="amount").form-control
+
+  br
+
+  .input-group
+    input(type="text", placeholder="dollars").form-control
+    span.input-group-addon .00
+
+  br
+
+  .input-group
+    span.input-group-addon $
+    input(type="text", placeholder="username").form-control
+    span.input-group-addon .00
